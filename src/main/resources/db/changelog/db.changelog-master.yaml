@@ -40,7 +40,6 @@ databaseChangeLog:
                     foreignKeyName: fk_actor_countries
                     referencedTableName: countries
                     referencedColumnNames: id
-                    nullable: false
         - createTable:
             tableName: movies
             columns:
